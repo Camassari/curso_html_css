@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* Comentário em CSS */
+    /* height: 100%; */
+    background-attachment: fixed;
+}
+
+body {
+    color: #262425;
+    background-color: #733030;
+}
+
+main {
+    background-image: linear-gradient(0deg, #8C583A 5%, #BF8654,  #D9B88F);
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 10px 10px 4px #262425;
+}
+
+p {
+    color: #262425;
+    text-align: justify;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 1px 1px 3px #262425;
+}
+
+h2 {
+    text-align: center;
+}

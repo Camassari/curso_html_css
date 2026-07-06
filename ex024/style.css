@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/* 
+HTML - id    / CSS - #
+HTML - class / CSS - .
+*/
+
+body {
+    background-color: antiquewhite;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color:rgb(59, 43, 32);
+}
+
+h1#principal {
+    text-align: center;
+}
+
+h2 {
+    color:rgb(59, 43, 32);
+}
+
+#semiprincipal {
+    text-align: center;
+}
+
+#equation {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.5em;
+}
+
+.subtitle {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.cooler {
+    font-weight: bold;
+    text-decoration: dashed;
+}

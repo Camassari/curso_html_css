@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Vídeoos!!! hospedado localmente</h1>
+    <p>Esse vídeo está hospedado no próprio servidor</p>
+
+    <video src="videos/handbrake.mp4" width="320" height="180" controls loop></video>
+    
+    <p>Agora testando usando source</p>
+    <!-- video/mp4 -->
+    <!-- Vai testando os vídeos convertidos, se nenhum funcionar aparece o <p> -->
+    <video controls width="320" height="180" loop>
+        <source src="videos/original.mp4" type="video/mp4">
+        <p>Seu navegador não é compatível</p>
+    </video>
+
+    <p>Aí é muito fácil não gastar tanta banda de internet</p>
+    <p>Inserindo vídeo do youtube!</p>
+    <!-- Só copiar o iframe do incorporar do youtube! -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/6GAIOOId7H4?si=4sIp44ri76ZOqDtg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>

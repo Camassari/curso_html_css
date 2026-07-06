@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Signature';
+    src: url('fonts/Brother Signature.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+    /* 
+    Tipos de format:
+
+    - opentype (otf)
+    - truetype (ttf)
+    - embedded-opentype
+    - truetype-aat (Apple advanced typograhy)
+    - svg
+    */
+}
+
+body {
+    font-family: 'Signature', Times, serif;
+    font-size: 1em;
+}
