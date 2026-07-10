@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução a Tabelas em HTML</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 400px;
+            height: 400px;
+        }
+
+        td {
+            padding: 8px;
+            border: 1px solid black;
+            text-align: center;
+            vertical-align: top;
+        }
+
+        tr.linha {
+            background-color: yellow;
+        }
+
+        td#dado {
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mi primera tabela!</h1>
+    <!--
+    Hierarquia de Tabelas Simples:
+
+    1 - Table = tabela
+        1.1 - Table row = linha de tabela
+            1.1.1 - Table header = cabeçalho de tabela
+            1.1.2 - Table data = dados de tabela
+    -->
+    <table>
+        <tr> <!-- Primeira linha -->
+            <td id="dado">A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+        <tr class="linha">
+            <td>A2</td>
+            <td>B2</td>
+            <td>C2</td>
+        </tr>
+        <tr>
+            <td>A3</td>
+            <td>B3</td>
+            <td>C3</td>
+        </tr>
+    </table>
+</body>
+</html>
