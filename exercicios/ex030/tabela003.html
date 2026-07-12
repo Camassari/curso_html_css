@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesclagem de Células</title>
+    <style>
+        body {
+            min-height: 100vh;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 500px;
+        }
+
+        table > caption {
+            text-align: center;
+        }
+
+        thead {
+            background-color: gray;
+            color: white
+        }
+
+        tfoot {
+            background-color: gray;
+            color: white;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: gray;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Mesclagem de células</h1>
+    <table>
+        <caption>Mesclagem de Células</caption>
+        <thead>
+            <tr>
+                <th>Header</th>
+                <th>Header</th>
+                <th>Header</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>A1</td>
+                <td colspan="2" rowspan="2">B1</td>
+            </tr>
+            <tr>
+                <td>A2</td>
+            </tr>
+            <tr>
+                <td colspan="3">C3</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total: </th>
+                <td>????</td>
+                <td>????</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
