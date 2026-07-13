@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas responsivas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            min-height: 100vh;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead {
+            background-color: rgb(164, 163, 163);
+        }
+
+        tr:nth-child(2n) {
+            background-color: rgb(164, 163, 163);
+        }
+
+        div#container {
+            width: 50vw;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas em telas pequenas</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ea aliquid dignissimos quibusdam exercitationem. Cum quam accusantium quasi harum saepe doloribus maiores itaque, architecto hic ipsam eos unde exercitationem dolor.</p>
+
+    <div id="container">
+        <table>
+            <caption>Tabelas resposinvas</caption>
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Janeiro</th>
+                    <th>Fevereiro</th>
+                    <th>Março</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>TV 40"</td>
+                    <td>1</td>
+                    <td>5</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Celular</td>
+                    <td>1</td>
+                    <td>5</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Smartwatch</td>
+                    <td>1</td>
+                    <td>5</td>
+                    <td>3</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
