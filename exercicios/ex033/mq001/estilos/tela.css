@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body {
+    height: 100vh;
+}
+
+header > h1 {
+    text-align: center;
+    background-color: gainsboro;
+    padding: 5px;
+}
+
+menu ul {
+    list-style-type: none;
+    background-color: gray;
+}
+
+menu li {
+    display: inline-block;
+    padding: 10px;
+}
+
+article > h2 {
+    margin: 10px;
+    text-align: center;
+}
+
+article > p {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    width: 600px;
+    
+}
+
+footer > p {
+    padding-top: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
