@@ -6,7 +6,8 @@
 
 @media print {
     body {
-        background-image: url(../imagens/back-print.jpg); 
+        background-image: url(../imagens/back-print.jpg); /* Inútil */ 
+        font-family: 'Courier New', Courier, monospace;
     }
 }
 
