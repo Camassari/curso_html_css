@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <style>
+        div.container {
+            background-color: lightcoral;
+            display: flex;
+            flex-direction: row;
+            height: 500px; /* Diminuindo o tamanho do container pai */
+
+            justify-content: space-around;
+            align-items: center;
+        }
+        div.item {
+            background-color: lightblue;
+            border: 1px solid black;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">Teste de texto A</div>
+        <div class="item">Teste de texto B</div>
+        <div class="item">Teste de texto C</div>
+        <div class="item">Teste de texto D</div>
+        <div class="item">Teste de texto E</div>
+        <div class="item">Teste de texto F</div>
+        <div class="item">Teste de texto G</div>
+    </div>
+</body>
+</html>
