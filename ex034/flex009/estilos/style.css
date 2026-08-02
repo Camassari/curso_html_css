@@ -24,12 +24,13 @@ header {
 
 header > h1 {
     color: white;
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
     flex: 0 0 270px;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.512);
 }
 
 header > nav {
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
