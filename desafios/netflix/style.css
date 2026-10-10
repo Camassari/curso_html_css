@@ -8,34 +8,79 @@
 }
 
 body, html {
-    max-height: 98vh;
+    /* Altura mínima */
+    min-height: 100vh;
+    overflow: hidden;
 }
 
 body {
-    background-image: radial-gradient(ellipse at top, #53171B, #181A1B);
-    background-color: #181A1B;
-    background-size: contain;
+    /* 50vh = Onde ocorre a suavização (metade da altura da tela) */
+    background-image: radial-gradient(circle at top, #53171B, 50vh, #181A1B);
     background-repeat: no-repeat;
-}
-
-.perfis {
+    background-color: #181A1B;
+    
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.perfis {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
 .perfil {
+    height: 120px;
     width: 80px;
+}
+
+.perfil:hover {
+    cursor: pointer;
+}
+
+.perfil > p {
+    color: rgba(255, 255, 255, 0.621);
+    font-weight: bold;
+    font-size: 0.75em;
+    text-align: center;
     overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: 10px;
+}
+
+.perfil:hover > p {
+    color: white;
 }
 
 .foto {
-    width: 80px;
     aspect-ratio: 1/1;
+    width: 100%;
+    border-radius: 10px;
 }
 
-p {
-    color: rgba(242, 242, 242, 0.601);
-    font-weight: 500;
-    text-align: center;
+.gerenciar {
+    margin-top: 20px;
+    background-color: #181a1b97;
+    font-size: 0.65em;
+    font-weight: bold;
+    /* Contorna só o conteúdo */
+    width:fit-content;
+    padding: 8px;
+    border: 1px solid rgb(84, 84, 84);
+    border-radius: 14px;
+    margin: auto;
+    margin-top: 14px;
+}
+
+.gerenciar:hover {
+    border: 1px solid rgb(57, 57, 57);
+    cursor: pointer;
+    transition-duration: .3s;
 }
